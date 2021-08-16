@@ -1,10 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-
-#include "ICM20948.h"
+#include "msb_imu.h"
 
 int main (int argc, char **argv) {
-    printf("hello, motion sensor box");
+    printf("hello, motion sensor box\n");
     return EXIT_SUCCESS;
 }
+
